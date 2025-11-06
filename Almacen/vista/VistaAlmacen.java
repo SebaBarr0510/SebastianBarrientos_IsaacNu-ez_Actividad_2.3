@@ -10,7 +10,7 @@ public class VistaAlmacen extends JFrame {
     public final JList<Producto> listaProductos = new JList<>(listModel);
 
     public final JButton btnCrear = new JButton("Crear producto");
-    public final JButton btnEntrada = new JButton("Reponoer stock");
+    public final JButton btnEntrada = new JButton("Reponer stock");
     public final JButton btnSalida = new JButton("Vender Producto");
     public final JButton btnInventario = new JButton("Reporte: Inventario total");
     public final JButton btnCritico = new JButton("Reporte: Stock crítico");
@@ -62,3 +62,4 @@ public class VistaAlmacen extends JFrame {
         JOptionPane.showMessageDialog(this, sp, titulo, JOptionPane.WARNING_MESSAGE);
     }
 }
+
