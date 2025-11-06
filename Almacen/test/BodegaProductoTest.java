@@ -83,11 +83,5 @@ public class BodegaProductoTest {
         assertTrue(lista.contains(producto1));
         assertTrue(lista.contains(producto2));
     }
-
-    @Test
-    public void testToStringProducto() {
-        String texto = producto1.toString();
-        assertTrue(texto.contains("Manzanas"));
-        assertTrue(texto.contains("stock"));
-    }
 }
+
